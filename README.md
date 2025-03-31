@@ -1,3 +1,3 @@
 # Сервис для сокращения ссылок
 
-hw3-python-1.onrender.com/docs
+Запуск сервиса: пройдите по ссылке hw3-python-1.onrender.com/docs
