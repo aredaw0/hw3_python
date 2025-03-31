@@ -1,15 +1,6 @@
-from fastapi import FastAPI, Depends, HTTPException
-from fastapi.responses import RedirectResponse
-from sqlalchemy.orm import Session  
-from datetime import datetime, timedelta
-import os
-import redis
-import threading, time
-from sqlalchemy import or_
-
-from app.database import Base, engine, SessionLocal, get_db
-from app import models, auth
-from app.routers import auth as auth_router, links as links_router, projects as projects_router
+from sqlalchemy import Column, String, Integer, Text, DateTime, Boolean, ForeignKey, func
+from sqlalchemy.orm import relationship
+from .database import Base
 
 from datetime import datetime, timezone, timedelta
 
