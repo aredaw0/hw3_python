@@ -1,2 +1,3 @@
 # Сервис для сокращения ссылок
-hw3_python
+
+hw3-python-1.onrender.com/docs
